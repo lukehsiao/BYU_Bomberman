@@ -27,7 +27,7 @@ PROJECT DESCRIPTION:
     students to see how they can create powerful systems with computers.
     
     We use a MaKeyMaKey board to allow students to create their own "controllers"
-    to use with the game, and then use this as input to our Rasberry Pi, which 
+    to use with the game, and then use this as input to our Raspberry Pi, which 
     runs Bombermaaan and outputs to the display.
     
     How to play:
