@@ -200,6 +200,7 @@ ADDITIONAL NOTES:
           On the IMMERSE website: [link goes here]
 ------------------------------------------------------------------------------------
 FUTURE UPGRADES:
+
     ● It would be more convenient if the Raspberry Pi automatically shutdown when
       Bomberman is closed.  
     ● You could make new alligator clip controller cables so they could hook up to anything.
