@@ -1,0 +1,185 @@
+====================================================================================
+IMMERSE ECEn Display: Bomberman!
+====================================================================================
+    Version 1.0
+    Release date: 28 May 2014
+------------------------------------------------------------------------------------
+PROJECT STATE:
+
+    Released
+------------------------------------------------------------------------------------
+CREDITS:
+
+    Luke Hsiao (luke.w.hsiao@gmail.com)
+    Thomas Townsend (thomastownsend523@gmail.com)
+    Alex Lin (linjiapuzi1994@hotmail.com)
+    Makey Makey team from www.makeymakey.com
+------------------------------------------------------------------------------------
+PROJECT DESCRIPTION:
+    
+    This project was created to serve as a new Computer Engineering-focused display
+    for new student orientation, SOAR, major fair, etc.  It provides a fun, 
+    interactive way to learn about circuits, I/O, and processing.  It connects the
+    real world to a digital one in a clever way.
+    
+    This project teaching about Computer Interfaces.  It involves low-level hardware
+    and signal processing, high-level operating systems and software, and allows
+    students to see how they can create powerful systems with computers.
+    
+    We use a MakeyMakey board to allow students to create their own "controllers"
+    to use with the game, and then use this as input to our Rasberry Pi, which 
+    runs Bombermaaan and outputs to the display.
+------------------------------------------------------------------------------------
+DEPENDANCIES:
+
+    The only hard dependencies are:
+        ● Requires the MakeyMakey and all physical connections
+        ● Requires Bombermaaan program, which requires no installation, to play.
+    
+    If you want to make modifications, we'd recommend using Windows. Specifically:
+        ● Requires Makey Makey Drivers for Windows
+        ● Requires Arduino ISE
+        ● Requires Makey Makey plug-in for Arduino to reprogram
+        
+    Note that it is not suggested that you make modifications to the MakeyMakey,
+    but all of the necessary files and instructions can be found at:
+    https://learn.sparkfun.com/tutorials/makey-makey-advanced-guide
+------------------------------------------------------------------------------------
+DOCUMENTATION:
+
+    The idea behind this project is to get the most fun, most interactive display
+    we could think of that involves computer engineering specifically.  The Makey
+    Makey has a maximum of 18 inputs (6 on front, 12 on back).  Bombermaaan requires
+    each player to have 6 keys for controls (up/down/left/right/action1/action2).
+    So, this is why we created it for 3 simultaneous players.  It's plug-and-play.
+    Grab this MakeyMakey setup, connect everything, power up, and run Bombermaaan
+    from the shortcut found on the desktop.
+------------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS:
+
+    All of the necessary source files/code has been included in this ZIP file. It is
+    completely self-contained and will not require any updating.
+    However, if you want additional references:
+        Reprogramming MakeyMakey: https://learn.sparkfun.com/tutorials/makey-makey-advanced-guide/all
+        Download Bombermaaan: http://bombermaaan.sourceforge.net/
+        
+    ---
+    Supplies Needed:
+        [1x] MakeyMakey
+        [1x] Rasberry Pi (already provided if you found this)
+        [3x] Controls for each player
+                - This mean 6 conductive objects/drawings/etc to use as controls
+        [1x] Mouse/Keyboard to initially navigate to the game and menus.
+    
+    Controller Layout:
+        The Bombermaaan game's control layout is very intuitive.  To help in selecting
+        materials, you should realize the controller layout is as shown below:
+        
+                ▲
+             ◄  ▼  ►    [Action1] [Action2]
+        
+        So, don't use anything too bulky or it won't be fun. Materials we've found 
+        effective are: a pencil drawing of a controller, coins, oranges(or other fruit).
+        Good ways to get all the players grounded to the same ground are (1) use grounding
+        wristbands we commonly have in the shop, (2) place a strip of metal tape or
+        tin foil on the table where they all rest their wrists.
+        
+        The creativity with which you layout the controls is the key to the demo.
+    
+    To Setup:
+        Unless you are changing something, you will NOT need to install anything.
+        Simply plug in the MakeyMakey to a USB port and wire up the controllers.
+        This works best when you have a table and a projector set up with speakers.
+        The MakeyMakey's outputs have been programmed to match the default controls
+        of Bombermaaan 1.4.0.  So, to wire up the game properly, simply wire it as
+        follows.  The tables show the game control, the corresponding MakeyMakey pin
+        and the actual key that the MakeyMakey pin will output.
+        
+            Player 1:
+                Must use KEYBOARD 5
+                Control |   MakeyMakey Input    | Actual Key
+                --------+-----------------------+------------
+                UP      |   UP                  | Up arrow
+                DOWN    |   DOWN                | Down arrow
+                LEFT    |   LEFT                | Left arrow
+                RIGHT   |   RIGHT               | Right arrow
+                ACTION1 |   SPACE               | Right CTRL
+                ACTION2 |   LEFTCLICK           | Right Shift
+            
+            Player 2:
+                Must use KEYBOARD 2
+                Control |   MakeyMakey Input    | Actual Key
+                --------+-----------------------+------------
+                UP      |   D5                  | r
+                DOWN    |   D4                  | f
+                LEFT    |   D3                  | d
+                RIGHT   |   D2                  | g
+                ACTION1 |   D1                  | 2
+                ACTION2 |   D0                  | 1
+                
+            Player 3:
+                Must use KEYBOARD 3
+                Control |   MakeyMakey Input    | Actual Key
+                --------+-----------------------+-------------
+                UP      |   A5                  | i
+                DOWN    |   A4                  | k
+                LEFT    |   A3                  | j
+                RIGHT   |   A2                  | l
+                ACTION1 |   A1                  | 8
+                ACTION2 |   A0                  | 7
+        
+        Note that if either the MakeyMakey is reprogrammed or Bombermaaan options are
+        changed, it will no longer work.
+        
+    To Play the Game:
+        Simply run the Bombermaaan shortcut that you can find on the Desktop of the Pi.
+        Note that you can go full-screen by pressing F3 or windowed by pressing F4.
+        Select "Game" in the menu by hitting enter.  Turn the first 3 Bombers to "man",
+        the fourth to "com" and the last one off.  In the next screen, make sure the
+        first bomber is Keyboard 5, the second bomber is Keyboard 2, and the third bomber
+        is Keyboard 3.  The next screens allow you to adjust how many battles in a match,
+        how long of normal gametime there is, and how much of "hurry" gametime there is.
+        We recommend (for demo purposes) Battle = 1, Start = 3:00, and Hurry = 0:35.
+        In the following screen, you can select whichever level you'd like. We'd
+        recommend L3.txt.  We've already configured this once, so unless you change it,
+        you'll just be able to use the settings as is.
+------------------------------------------------------------------------------------
+ADDITIONAL NOTES:
+
+    ● Do NOT install the USB drivers with the Arduino ISE!  It will conflict with 
+        the MakeyMakey drivers and cause problems during reprogramming.
+    ● Bombermaaan will NOT open if there is no sound device detected.
+        - If you need to debug Bombermaaan, see log.txt in the Bombermaaan_1.4.0 folder
+        - More debugging information can be found at http://bombermaaan.sourceforge.net/faq.php
+        - This means on some computers, it will not open w/o headphones or speakers plugged in.
+    ● To Reprogram the MakeyMakey
+        - open makey_makey_1_4_1.ino in Arduino ISE and edit the array in settings.h
+        - See the link in Installation Instructions for details.
+        - Remember, unless you absolutely want to change this demo, DO NOT REPROGRAM THE MAKEYMAKEY.
+    ● On the software side, no real enhancements can help much. Where the real enhancements and 
+      creativity can come is on how the actual demo is set up, the cleverness of the controllers,
+      etc.  Spend the effort in making that cool!  For example, we'd eventually like it to be 
+      completely self-contained (i.e. not require another laptop).  That way, it can be open and 
+      set up and allow students to see "inside" the computer.
+    ● Clever trick: if you using a sketched circuit, cut a slit in the paper and draw leads to that
+      This way, the clips are hidden from view and out of the way.  
+      
+            [top of paper hiding cords]
+            -------------------------
+            [leads drawn to the slit]
+      
+                ▲
+             ◄  ▼  ►    [Action1] [Action2]
+             
+    ● On Linux, we needed to compile from source code.  We needed to install:
+        - sudo apt-get update
+        - sudo apt-get install libsdl-mixer1.2-dev
+        - sudo apt-get install libsdl1.2-dev
+        - Download the source files "Bombermaaan_1.3.2.557e_20081004_src.tar.gz".
+        - Extract to a folder.
+        - Edit the backslash variable in winreplace.cpp[95] into const char* rather than the original char*
+        - Download additional RES/RES32 files from DevelTools on sourceforge ("Bombermaaan_1.3.2.572e_20081006_res.tar.gz").
+        - Extract and copy them into the folder you placed the original source files in.
+        - Change to the new directory and type make
+        - Ensure you have some level files in the ./Bombermaaan/Levels directory (may need to download separately).
+        - Change to directory ./Bombermaaan and type LD_LIBRARY_PATH=../RESGEN ./Bombermaaan
