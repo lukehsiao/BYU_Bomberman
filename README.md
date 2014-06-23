@@ -194,13 +194,34 @@ ADDITIONAL NOTES:
         - Extract and copy them into the folder you placed the original source files in.
         - Change to the new directory and type make
         - Ensure you have some level files in the ./Bombermaaan/Levels directory (may need to download separately).
-        - Change to directory ./Bombermaaan and type LD_LIBRARY_PATH=../RESGEN ./Bombermaaan
+        - Change to directory ./Bombermaaan and type LD_LIBRARY_PATH=../RESGEN ./Bombermaaan to run.
     ● If the RaspberryPi is not properly shutdown, its SD card may be corrupted.
-        - If this is the case, you can restore the 8GB SD card using "PiBackup" which can be found
-          On the IMMERSE website: [link goes here]
+        - If you need to re-setup the SD card first install the latest version of Raspian
+        - Download the source files in Bombermaaan/
+        - Follow instructions in previous bullet to compile from Source
+        - Open a terminal and run mkdir ~/.config/autostart
+        - Then, run touch ~/.config/autostart/Bomberman.desktop
+        - Then, open Bomberman.desktop and paste in the following:
+              [Desktop Entry]
+              Version=1.0
+              Type=Application
+              Name=Bomberman
+              Exec=./Bomberman.sh
+              Path=/home/pi
+              Terminal=false
+              StartupNotify=false
+       - Finally, create a Bomberman.sh and place it in /home/pi and paste in:
+              echo "Opening Bomberman..."
+              cd /home/pi/Bombermaaan_Linux/Bombermaaan/Bombermaaan/
+              LD_LIBRARY_PATH=../RESGEN ./Bombermaaan
+       - This requires that the source files are placed in the "Bombermaaan_Linux" folder
+         in home/pi/ and it is already compile.
+     
 ------------------------------------------------------------------------------------
 FUTURE UPGRADES:
 
     ● It would be more convenient if the Raspberry Pi automatically shutdown when
       Bomberman is closed.  
     ● You could make new alligator clip controller cables so they could hook up to anything.
+    ● Create a Disk Image of the SD Card and host it on the IMMERSE page so that it's easy
+      to reformat the SD card.
