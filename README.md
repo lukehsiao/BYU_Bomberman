@@ -89,7 +89,7 @@ INSTALLATION INSTRUCTIONS:
              ◄  ▼  ►    [Action1] [Action2]
         
         So, don't use anything too bulky or it won't be fun. Materials we've found 
-        effective are: a pencil drawing of a controller, coins, oranges(or other fruit).
+        effective are: playdoh, coins, oranges(or other fruit).
         Good ways to get all the players grounded to the same ground are (1) use grounding
         wristbands we commonly have in the shop, (2) place a strip of metal tape or
         tin foil on the table where they all rest their wrists.
@@ -219,7 +219,10 @@ ADDITIONAL NOTES:
                   LD_LIBRARY_PATH=../RESGEN ./Bombermaaan
            - This requires that the source files are placed in the "Bombermaaan_Linux" folder
              in home/pi/ and it is already compiled.
-             
+    ● BUG: It turns out that people's skin have different conductivity.  That means that sometimes,
+      our ground straps did not work properly when placed on a wrist or arm compared to the
+      sweat-gland-dense palm.  This is a issue we must resolve so that regardless of skin type,
+      the grounding works.
      
 ------------------------------------------------------------------------------------
 FUTURE UPGRADES:
@@ -227,3 +230,4 @@ FUTURE UPGRADES:
     ● It would be more convenient if the Raspberry Pi automatically shutdown when
       Bomberman is closed.  
     ● You could make new alligator clip controller cables so they could hook up to anything.
+    ● You may be able to reprogram the MakeyMakey to use capacitive sensing-eliminating the need for ground straps.
