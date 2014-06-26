@@ -223,6 +223,8 @@ ADDITIONAL NOTES:
       our ground straps did not work properly when placed on a wrist or arm compared to the
       sweat-gland-dense palm.  This is a issue we must resolve so that regardless of skin type,
       the grounding works.
+    ● Make sure the monitor is set to the correct input.  It's default is VGA 
+      rather than DVI.
      
 ------------------------------------------------------------------------------------
 FUTURE UPGRADES:
@@ -230,4 +232,5 @@ FUTURE UPGRADES:
     ● It would be more convenient if the Raspberry Pi automatically shutdown when
       Bomberman is closed.  
     ● You could make new alligator clip controller cables so they could hook up to anything.
-    ● You may be able to reprogram the MakeyMakey to use capacitive sensing-eliminating the need for ground straps.
+    ● You could reprogram the MakeyMakey to use capacitive sensing so no grounding is needed.
+    ● Create a custom BYU level for Bomberman.
