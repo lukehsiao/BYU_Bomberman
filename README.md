@@ -41,11 +41,11 @@ DEPENDANCIES:
 
     The only hard dependencies are:
         ● Requires the Bomberman Cart, Posters, and Controllers.
-        ● Make sure that the area the display will be has a plower plug.
-        ● 6 Fruit if you're using the nail-bed fruit controller.  We recommend Clemintines. 
+        ● Make sure that the area the display will be has a power plug.
+        ● 6 Fruit if you're using the nail-bed fruit controller.  We recommend Clementine. 
     
     If you want to make modifications, we'd recommend using Windows. When modifying,
-    additional dependancies are:
+    additional dependencies are:
         ● Requires Makey Makey Drivers for Windows
         ● Requires Arduino ISE
         ● Requires Makey Makey plug-in for Arduino to reprogram
@@ -96,7 +96,7 @@ INSTALLATION INSTRUCTIONS:
         
         The creativity with which you layout the controls is the key to the demo.
     
-    To Setup:
+    To Set Up:
         Unless you are changing something, you will NOT need to install anything.
         Simply plug in the Bomberman cart and wire up the controllers.
         The MakeyMakey's outputs have been programmed to match the default controls
@@ -147,13 +147,13 @@ INSTALLATION INSTRUCTIONS:
         the fourth to "com" and the last one off.  In the next screen, make sure the
         first bomber is Keyboard 5, the second bomber is Keyboard 2, and the third bomber
         is Keyboard 3.  The next screens allow you to adjust how many battles in a match,
-        how long of normal gametime there is, and how much of "hurry" gametime there is.
+        how long of normal game time there is, and how much of "hurry" gametime there is.
         We recommend (for demo purposes) Battle = 1, Start = 2:00, and Hurry = 0:35.
         In the following screen, you can select whichever level you'd like. We'd
         recommend L3.txt.  We've already configured this once, so unless you change it,
         you'll just be able to use the settings as is.
         
-        To shutdown the Raspberry Pi, exit from the Bomberman game to the Rasbian desktop.
+        To shutdown the Raspberry Pi, exit from the Bomberman game to the Raspbian desktop.
         Then, press Ctrl+Alt+D and use the arrow keys to navigate to LXTerminal and launch it.
         Run "sudo shutdown -h now".  Wait for the blinking cursor on the top left of the
         screen to disappear before unplugging the cart.
