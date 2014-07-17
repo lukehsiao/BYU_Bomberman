@@ -42,7 +42,7 @@ DEPENDANCIES:
     The only hard dependencies are:
         ● Requires the Bomberman Cart, Posters, and Controllers.
         ● Make sure that the area the display will be has a power plug.
-        ● 6 Fruit if you're using the nail-bed fruit controller.  We recommend Clementine. 
+        ● 6 Fruit if you're using the nail-bed fruit controller.  We recommend Clementines. 
     
     If you want to make modifications, we'd recommend using Windows. When modifying,
     additional dependencies are:
