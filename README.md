@@ -1,9 +1,9 @@
 ## IMMERSE ECEn Display: Bomberman! ##
 
-    Version 1.0
-    Original Release date: 23 June 2014
-    Updated: 29 August 2014
-    Landing Page: http://lukehsiao.github.io/BYU_Bomberman/
+Version: 1.0
+Original Release date: 23 June 2014
+Updated: 29 August 2014
+Landing Page: http://lukehsiao.github.io/BYU_Bomberman/
         
 ### What is this repository for? ###
 
