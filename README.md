@@ -182,9 +182,9 @@ wristsraps were necessary.
 ### Who do I talk to? ###
 
 This display was created in the summer of 2014 by:
-* Luke Hsiao (lukehsiao@byu.edu)
-* Thomas Townsend (thomastownsend523@gmail.com)
-* Alex Lin (linjiapuzi1994@hotmail.com)
+* Luke Hsiao
+* Thomas Townsend
+* Alex Lin
 
 We also would like to give special thanks to:
 * MaKey MaKey team from www.makeymakey.com
