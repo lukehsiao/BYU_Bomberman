@@ -170,7 +170,7 @@ cleverness of the controllers, etc.  Spend the effort in making that cool!
 * Make sure the monitor is set to the correct input.  It's default is VGA 
   rather than DVI.
   
-### Future Upgrades: ###
+### Future Work: ###
 * It would be great if the Raspberry Pi automatically shutdown after Bomberman
 was closed.
 * You could make new alligator clip controller cables so they could hook up to
@@ -182,6 +182,7 @@ wristsraps were necessary.
   * Include BYU Images
   * Not have such a long wait timer after a "victory".
   * Automatically return to the level selection page after a match.
+* Create a well-made video of the display at work and add to the landing page.
 
 ### Who do I talk to? ###
 
