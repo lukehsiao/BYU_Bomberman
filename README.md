@@ -50,7 +50,7 @@ materials, you should realize the controller layout is as shown below:
      ◄  ▼  ►    [Action1] [Action2]
 
 So, don't use anything too bulky or it won't be fun. Materials we've found 
-effective are: Play-Doh, coins, oranges(or other fruit).
+effective are: Play-Doh, coins, potatoes/carrots (cut in half so they don't wobble).
 Good ways to get all the players grounded to the same ground are (1) use grounding
 wristbands we commonly have in the shop, (2) place a strip of metal tape or
 tin foil on the table where they all rest their wrists.
@@ -178,10 +178,14 @@ anything.
 * You could reprogram the MaKeyMaKey to use capacitive sensing so that no ground
 wristsraps were necessary.
 * Create a custom BYU-logo level for Bomberman.
+* Edit the Bombermaaan source code to:
+  * Include BYU Images
+  * Not have such a long wait timer after a "victory".
+  * Automatically return to the level selection page after a match.
 
 ### Who do I talk to? ###
 
-This display was created in the summer of 2014 by:
+This display was originally created in the summer of 2014 by:
 * Luke Hsiao
 * Thomas Townsend
 * Alex Lin
