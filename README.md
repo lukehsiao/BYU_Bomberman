@@ -31,7 +31,7 @@ source code is readily available, and improvements can be made efficiently.
 4. Make sure Bomberman is configured correctly (see below for details.)
 5. Play!
 6. When finished, clean up cart/controllers.
-7. Shutdown the Pi BEFORE unplugging the cart (intructions below).
+7. Shutdown the Pi BEFORE unplugging the cart (instructions below).
 
 
 ### I want some nitty-gritty details. ###
@@ -176,7 +176,7 @@ was closed.
 * You could make new alligator clip controller cables so they could hook up to
 anything.
 * You could reprogram the MaKeyMaKey to use capacitive sensing so that no ground
-wristsraps were necessary.
+wrist straps were necessary.
 * Create a custom BYU-logo level for Bomberman.
 * Edit the Bombermaaan source code to:
   * Include BYU Images
