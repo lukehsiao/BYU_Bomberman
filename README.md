@@ -25,7 +25,7 @@ source code is readily available, and improvements can be made efficiently.
 
 ### How do I run this thing? ###
 
-1. Grab the Bomberman Card, Posters, and Easels. 
+1. Grab the Bomberman Cart, Posters, and Easels. 
 2. Plug in the black power cord built into the cart (bomberman will auto-open).
 3. Hook up all the controllers.
 4. Make sure Bomberman is configured correctly (see below for details.)
