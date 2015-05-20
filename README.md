@@ -139,7 +139,7 @@ cleverness of the controllers, etc.  Spend the effort in making that cool!
    LD_LIBRARY_PATH=../RESGEN ./Bombermaaan to run
 * If the RaspberryPi is not properly shutdown, its SD card may be corrupted.
    * You can simply use Win32DiskImager to load the "PiBackup" image onto the 
-   8GB SD card which you can download at www.immerse.byu.edu/Bomberman/PiBackup
+   8GB SD card which you can download at http://www.immerse.byu.edu/InteractiveDisplays/Bomberman/PiBackup
    * Or, if you want to go from scratch..
         * First install the latest version of Raspian
         * Download the source files in Bombermaaan/
