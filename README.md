@@ -101,6 +101,9 @@ and the actual key that the MakeyMakey pin will output.
 Note that if either the MakeyMakey is reprogrammed or Bombermaaan options are
 changed, it will no longer work.
 
+The cables that connect the controllers to the Bomberman cart are custom made from ribbon cable and 6-pin female molex connectors. The assignments of the pins on the cable are shown in the image below:
+![Molex Pin Assignments](/resources/cable_assignments.jpg "Molex Pin Assignments")
+
 #### How do I shutdown the Pi without a mouse? ####
 1. Exit from the Bomberman game to the Rasbian desktop (hit ESC).
 2. Press Ctrl+Alt+D and use the arrow keys to move to LXTerminal and open it.
