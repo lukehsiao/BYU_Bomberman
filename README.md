@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/lukehsiao/BYU_Bomberman.png?label=ready&title=Ready)](https://waffle.io/lukehsiao/BYU_Bomberman)
 ## IMMERSE ECEn Display: Bomberman! ##
 
 Version: 1.0.1<br>
