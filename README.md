@@ -1,6 +1,8 @@
 [![Stories in Ready](https://badge.waffle.io/lukehsiao/BYU_Bomberman.png?label=ready&title=Ready)](https://waffle.io/lukehsiao/BYU_Bomberman)
 ## IMMERSE ECEn Display: Bomberman! ##
 
+[![Join the chat at https://gitter.im/lukehsiao/BYU_Bomberman](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lukehsiao/BYU_Bomberman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Version: 1.0.1<br>
 Original Release date: 23 June 2014<br>
 Updated: 29 August 2014<br>
