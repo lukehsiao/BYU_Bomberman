@@ -2,7 +2,7 @@
 
 case "$(pidof Bombermaaan | wc -w)" in
 
-0) echo "Shutting down pi:	$(date)" >> ~/bombermaaan.log
+0) echo "Shutting down pi:	$(date)" >> /home/pi/bombermaaan.log
 	/sbin/shutdown -h now 
 	;;
 
