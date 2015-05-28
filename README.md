@@ -105,7 +105,14 @@ changed, it will no longer work.
 The cables that connect the controllers to the Bomberman cart are custom made from ribbon cable and 6-pin female molex connectors. The assignments of the pins on the cable are shown in the image below:
 ![Molex Pin Assignments](/resources/cable_assignments.jpg "Molex Pin Assignments")
 
-#### How do I shutdown the Pi without a mouse? ####
+####How do I set up the Pi to shut down automatically after Bombermaaan is closed?
+1. Copy the scripts folder in this repository and its contents to the /home/pi by using "sudo cp -r <path to scripts folder> /home/pi"
+2. Open up a terminal session and type "sudo crontab -e". The root user's crontab file should open. 
+3. In the nano text editor that opens up, after the comments, type "* * * * * /home/pi/scripts/bombermaaancheck.sh". This will set crontab to run the script every minute, on the minute.
+4. Type ctrl+x and then y, and press enter. The cron job entry will be saved.
+5. The next wallclock minute after you exit bombermaaan, the raspberry pi will shut down.
+
+#### How do I manually shutdown the Pi without a mouse? ####
 1. Exit from the Bomberman game to the Rasbian desktop (hit ESC).
 2. Press Ctrl+Alt+D and use the arrow keys to move to LXTerminal and open it.
 3. Type "sudo shutdown -h now" and hit enter.
@@ -175,8 +182,6 @@ cleverness of the controllers, etc.  Spend the effort in making that cool!
   rather than DVI.
   
 ### Future Work: ###
-* It would be great if the Raspberry Pi automatically shutdown after Bomberman
-was closed.
 * You could make new alligator clip controller cables so they could hook up to
 anything.
 * You could reprogram the MaKeyMaKey to use capacitive sensing so that no ground
