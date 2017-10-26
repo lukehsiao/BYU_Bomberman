@@ -1,7 +1,7 @@
 ## IMMERSE ECEn Display: Bomberman! ##
 
-[![Join the chat at https://gitter.im/lukehsiao/BYU_Bomberman](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/lukehsiao/BYU_Bomberman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Stories in Ready](https://badge.waffle.io/lukehsiao/BYU_Bomberman.png?label=ready&title=To Do)](https://waffle.io/lukehsiao/BYU_Bomberman)
+[![Join the chat at https://gitter.im/lukehsiao/BYU_Bomberman](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat)](https://gitter.im/lukehsiao/BYU_Bomberman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Waffle.io](https://img.shields.io/waffle/label/lukehsiao/byu_bomberman/ready.svg?style=flat)](https://waffle.io/lukehsiao/byu_bomberman)
 
 Version: 1.0.1<br>
 Original Release date: 23 June 2014<br>
