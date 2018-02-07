@@ -1,7 +1,8 @@
 ## IMMERSE ECEn Display: Bomberman! ##
 
 [![Join the chat at https://gitter.im/lukehsiao/BYU_Bomberman](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat)](https://gitter.im/lukehsiao/BYU_Bomberman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Waffle.io](https://img.shields.io/waffle/label/lukehsiao/byu_bomberman/ready.svg?style=flat)](https://waffle.io/lukehsiao/byu_bomberman)
+[![GitHub issues](https://img.shields.io/github/issues/lukehsiao/BYU_Bomberman.svg)](https://github.com/lukehsiao/BYU_Bomberman/issues)
+[![GitHub license](https://img.shields.io/github/license/lukehsiao/BYU_Bomberman.svg)](https://github.com/lukehsiao/BYU_Bomberman/blob/master/LICENSE)
 
 Version: 1.0.1<br>
 Original Release date: 23 June 2014<br>
